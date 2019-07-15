@@ -1,3 +1,16 @@
 * {
-    background-color: blue
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 30%, rgba(200,1,42,1) 83%);
+}
+
+#game {
+    border: 3px solid white;
+    height: 50px;
+    width: 90%;
+    font-size: 20px;
+    margin: 15px auto;
+    padding-bottom: 10px;
+    text-align: center;
+    padding: 8px;
+    line-height: 25px;
 }
