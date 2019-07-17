@@ -16,31 +16,38 @@
         if (userGuess === "r" || userGuess === "p" || userGuess === "s"){
             if ((userGuess === "r" && computerGuess === "s")) {
                 wins++;
-                alert("wins: " + wins)
+                alert("computer guessed: SCISSORS... YOU WON!")
+                // alert("wins: " + wins)
             }
             if ((userGuess === "r" && computerGuess === "p")) {
                 losses++;
-                alert("losses: " + losses)
+                alert("computer guessed: PAPER... you lost")
+                // alert("losses: " + losses)
             }
             if ((userGuess === "s" && computerGuess === "p")) {
                 wins++;
-                alert("wins: " + wins)
+                alert("computer guessed: PAPER... YOU WON!")
+                // alert("wins: " + wins)
             }
             if ((userGuess === "s" && computerGuess === "r")) {
                 losses++;
-                alert("losses: " + losses)              
+                alert("computer guessed: ROCK... you lost")
+                // alert("losses: " + losses)              
             }
             if ((userGuess === "p" && computerGuess === "r")) {
                 wins++;
-                alert("wins: " + wins)
+                alert("computer guessed: ROCK... YOU WON!")
+                // alert("wins: " + wins)
             }
             if ((userGuess === "p" && computerGuess === "s")) {
                 losses++;
-                alert("losses: " + losses)
+                alert("computer guessed: SCISSORS... you lost")
+                // alert("losses: " + losses)
             }
             if ((userGuess === computerGuess)) {
                 ties++;
-                alert("ties: " + ties)
+                alert("If great minds think alike than you are as smart as a computer... you tied")
+                // alert("ties: " + ties)
             }
 
         }
